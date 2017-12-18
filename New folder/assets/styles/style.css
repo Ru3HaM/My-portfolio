@@ -1,0 +1,98 @@
+@font-face {
+	font-family: "Monumentale";
+	src: url(Monumentale.otf);
+}
+@font-face {
+	font-family: "KubikaRough";
+	src: url(../fonts/Kubika_Rough.otf);
+}
+
+body {
+	margin: 0;
+	font-family: "Trebuchet MS";
+}
+
+header {
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center; 
+	background-color: #f4f4f4;
+	height: 50px; 
+}
+
+header a {
+	margin: 0 20px;
+	text-decoration: none;
+	color: #565656;
+	line-height: 50px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1024px;
+}
+
+h1, h2 {
+	margin: 0;
+	background-color: yellow;
+	display: inline-block;
+	font-family: "KubikaRough";
+}
+
+h1 {
+	margin-bottom: 15px;
+	font-size: 60px;
+}
+h2 {
+	margin: 0 0 40px 40px;
+	font-size: 40px;
+}
+
+section {
+	padding-top: 25px
+}
+
+ul {
+	font-family: "KubikaRough";
+	list-style-type: none;
+	margin-bottom: 100px
+}
+
+.about-list li {
+	font-size: 20px;
+}
+
+.skill img {
+	width: 200px
+}
+
+.skill {
+	display: inline-block;
+	margin: 0 40px;
+}
+ .items {
+ 	text-align: center;
+ }
+
+ .skill:last-child {
+ 	opacity: .3;
+ }
+ 	
+.section-media,
+.section-works {
+	padding: 60px 0 160px;
+}	
+
+.work {
+	display: inline-block;
+	border: 5px solid black;
+	border-radius: 15px;
+	width: 250px
+}
+
+.work-image {
+	height: 200px;
+	background-image: url(../img/kek.jpg);
+	background-size: cover;
+	background-position: center;
+}
